@@ -1,4 +1,4 @@
-package com.done.easy.data;
+package com.done.easy;
 
 /**
  * Return the index of the first occurrence of needle in haystack,

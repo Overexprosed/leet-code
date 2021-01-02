@@ -1,6 +1,5 @@
 package com.done.easy;
 
-import com.done.easy.data.NeedleInHaystack;
 import org.junit.Assert;
 import org.junit.Test;
 

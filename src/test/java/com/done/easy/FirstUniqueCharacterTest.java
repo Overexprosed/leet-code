@@ -8,22 +8,22 @@ public class FirstUniqueCharacterTest {
     private final FirstUniqueCharacter target = new FirstUniqueCharacter();
 
     @Test
-    public void firstUniqueChar1() {
+    public void test1() {
         Assert.assertEquals(0, target.firstUniqueChar("leetcode"));
     }
 
     @Test
-    public void firstUniqueChar2() {
+    public void test2() {
         Assert.assertEquals(2, target.firstUniqueChar("loveleetcode"));
     }
 
     @Test
-    public void firstUniqueChar3() {
+    public void test3() {
         Assert.assertEquals(-1, target.firstUniqueChar(""));
     }
 
     @Test
-    public void firstUniqueChar4() {
+    public void test4() {
         Assert.assertEquals(2, target.firstUniqueChar("abcdba"));
     }
 }

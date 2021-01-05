@@ -8,21 +8,21 @@ public class RemoveElementTest {
     private final RemoveElement target = new RemoveElement();
 
     @Test
-    public void removeElement1() {
+    public void test1() {
         int[] array = {1, 1, 2};
         int result = target.removeElement(array, 1);
         Assert.assertEquals(1, result);
     }
 
     @Test
-    public void removeElement2() {
+    public void test2() {
         int[] array = {1, 1, 1, 1, 1};
         int result = target.removeElement(array, 1);
         Assert.assertEquals(0, result);
     }
 
     @Test
-    public void removeElement3() {
+    public void test3() {
         int[] array = {1};
         int result = target.removeElement(array, 1);
         Assert.assertEquals(0, result);

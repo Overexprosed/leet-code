@@ -8,27 +8,27 @@ public class PalindromeNumberTest {
     private final PalindromeNumber target = new PalindromeNumber();
 
     @Test
-    public void isPalindrome1() {
+    public void test1() {
         Assert.assertTrue(target.isPalindrome(121));
     }
 
     @Test
-    public void isPalindrome2() {
+    public void test2() {
         Assert.assertFalse(target.isPalindrome(-121));
     }
 
     @Test
-    public void isPalindrome3() {
+    public void test3() {
         Assert.assertTrue(target.isPalindrome(0));
     }
 
     @Test
-    public void isPalindrome4() {
+    public void test4() {
         Assert.assertFalse(target.isPalindrome(Integer.MAX_VALUE));
     }
 
     @Test
-    public void isPalindrome5() {
+    public void test5() {
         Assert.assertFalse(target.isPalindrome(Integer.MIN_VALUE));
     }
 }

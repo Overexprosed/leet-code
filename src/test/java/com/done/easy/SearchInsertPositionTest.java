@@ -8,7 +8,7 @@ public class SearchInsertPositionTest {
     private final SearchInsertPosition target = new SearchInsertPosition();
 
     @Test
-    public void searchInsertTest1() {
+    public void test1() {
         int[] array = {1, 3, 5, 6};
         int target = 5;
         int result = this.target.searchInsert(array, target);
@@ -16,7 +16,7 @@ public class SearchInsertPositionTest {
     }
 
     @Test
-    public void searchInsertTest2() {
+    public void test2() {
         int[] array = {1, 3, 5, 6};
         int target = 2;
         int result = this.target.searchInsert(array, target);
@@ -24,7 +24,7 @@ public class SearchInsertPositionTest {
     }
 
     @Test
-    public void searchInsertTest3() {
+    public void test3() {
         int[] array = {1, 3, 5, 6};
         int target = 7;
         int result = this.target.searchInsert(array, target);
@@ -32,7 +32,7 @@ public class SearchInsertPositionTest {
     }
 
     @Test
-    public void searchInsertTest4() {
+    public void test4() {
         int[] array = {};
         int target = 1;
         int result = this.target.searchInsert(array, target);
@@ -40,7 +40,7 @@ public class SearchInsertPositionTest {
     }
 
     @Test
-    public void searchInsertTest5() {
+    public void test5() {
         int[] array = {2};
         int target = 1;
         int result = this.target.searchInsert(array, target);
@@ -48,7 +48,7 @@ public class SearchInsertPositionTest {
     }
 
     @Test
-    public void searchInsertTest6() {
+    public void test6() {
         int[] array = {2};
         int target = 3;
         int result = this.target.searchInsert(array, target);

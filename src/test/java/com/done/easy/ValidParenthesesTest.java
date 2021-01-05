@@ -5,55 +5,55 @@ import org.junit.Test;
 
 public class ValidParenthesesTest {
 
-    ValidParentheses target = new ValidParentheses();
+    private final ValidParentheses target = new ValidParentheses();
 
     @Test
-    public void isValid1() {
+    public void test1() {
         Assert.assertTrue(target.isValid("()"));
     }
 
     @Test
-    public void isValid2() {
+    public void test2() {
         Assert.assertFalse(target.isValid("(}"));
     }
 
     @Test
-    public void isValid3() {
+    public void test3() {
         Assert.assertTrue(target.isValid("[]"));
     }
 
     @Test
-    public void isValid4() {
+    public void test4() {
         Assert.assertTrue(target.isValid("{}"));
     }
 
     @Test
-    public void isValid5() {
+    public void test5() {
         Assert.assertTrue(target.isValid("(){}[]"));
     }
 
     @Test
-    public void isValid6() {
+    public void test6() {
         Assert.assertTrue(target.isValid("({([])})"));
     }
 
     @Test
-    public void isValid7() {
+    public void test7() {
         Assert.assertFalse(target.isValid("({([])))"));
     }
 
     @Test
-    public void isValid8() {
+    public void test8() {
         Assert.assertFalse(target.isValid("("));
     }
 
     @Test
-    public void isValid9() {
+    public void test9() {
         Assert.assertFalse(target.isValid("]"));
     }
 
     @Test
-    public void isValid10() {
+    public void test10() {
         Assert.assertFalse(target.isValid("(])"));
     }
 }

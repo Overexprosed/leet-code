@@ -18,7 +18,7 @@ package com.done.easy;
  *  * 0 <= strs[i].length <= 200
  *  * strs[i] consists of only lower-case English letters.
  *
- *  Solution:
+ *  ---
  *  Take prefix as length of first word (it's max length).
  *  Next we try to find shorter prefix, comparing each next word with current prefix.
  *  If we have found -> it's our new prefix.

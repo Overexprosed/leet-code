@@ -9,7 +9,6 @@ package com.done.easy;
  * and only the integer part of the result is returned.
  *
  * ---
- *
  * Newton's method
  */
 public class Sqrt {

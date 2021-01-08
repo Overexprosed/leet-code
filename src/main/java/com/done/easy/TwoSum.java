@@ -8,8 +8,7 @@ import java.util.HashMap;
  * Given an array of integers nums and an integer target,
  * return indices of the two numbers such that they add up to target.
  *
- * Algorithm explanation
- *
+ * ---
  * Traverse array only once, saving complement of the target value and current array element,
  * and check this complement for each further array elements.
  */

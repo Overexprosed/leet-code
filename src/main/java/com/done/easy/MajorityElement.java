@@ -3,6 +3,7 @@ package com.done.easy;
 /**
  * Find the element which appears more than half times.
  *
+ * ---
  * Boyer–Moore majority vote algorithm.
  * It's like boxing. Wins who beats more than others.
  * Of course if strength of hits are equals :)

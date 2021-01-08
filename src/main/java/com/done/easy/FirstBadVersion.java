@@ -8,8 +8,7 @@ import com.done.easy.data.VersionControl;
  * Find first bad version (the first 'true' occurrence).
  * Version list example : [false, false, true, true, true] .
  *
- * Algorithm explanation
- *
+ * ---
  * Binary search.
  */
 public class FirstBadVersion {

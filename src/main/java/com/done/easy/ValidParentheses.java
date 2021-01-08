@@ -22,11 +22,11 @@ import java.util.Stack;
  *  Input: s = "(]"
  *  Output: false
  *
- *  Solution:
- *   If character is open parentheses - add to stack.
- *   If character is close parentheses - check for previous stack element.
- *   Else add to stack.
- *   Last step is check stack for empty.
+ * ---
+ * If character is open parentheses - add to stack.
+ * If character is close parentheses - check for previous stack element.
+ * Else add to stack.
+ * Last step is check stack for empty.
  */
 public class ValidParentheses {
 

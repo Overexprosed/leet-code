@@ -4,10 +4,12 @@ import com.done.easy.data.ListNode;
 
 /**
  * Remove Duplicates from Sorted List
- * <p>
+ *
  * Given the head of a sorted linked list.
  * Delete all duplicates such that each element appears only once.
  * Return the linked list sorted as well.
+ * ---
+ * Create 'list' as a temporal variable to not compromise an initial variable
  */
 public class RemoveDuplicatesFromSortedList {
 
